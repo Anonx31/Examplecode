@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Audio & Video Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background-color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    audio, video {
+      width: 100%;
+      max-width: 600px;
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .media-block {
+      margin-bottom: 40px;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+      border-radius: 8px;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .download-button:hover {
+      background-color: #005a99;
+    }
+
+    small {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎧🎥 Enhanced Media Playback</h1>
+
+  <div class="media-block">
+    <h2>🔁 Looped & Downloadable Audio</h2>
+    <audio controls loop>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <a class="download-button" href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" download>Download Audio</a>
+    <br><small>Source: <a href="https://www.soundhelix.com/" target="_blank">SoundHelix</a> (royalty-free)</small>
+  </div>
+
+  <div class="media-block">
+    <h2>▶️ Autoplay, Muted & Looped Video</h2>
+    <video controls autoplay muted loop poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg?x11217">
+      <source src="https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4" type="video/mp4">
+      Your browser does not support the video element.
+    </video>
+    <a class="download-button" href="https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4" download>Download Video</a>
+    <br><small>Source: <a href="https://peach.blender.org/download/" target="_blank">Big Buck Bunny</a> (public domain)</small>
+  </div>
+
+</body>
+</html>
