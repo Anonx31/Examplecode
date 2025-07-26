@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Myself Form</title>
+</head>
+<body>
+
+    <center><h3>Myself</h3></center>
+
+    <form>
+        <p>Name: <input type="text" name="name"></p>
+        <p>Age: <input type="number" name="age"></p>
+        <p>Email: <input type="email" name="email"></p>
+        <p>Address: <input type="text" name="address"></p>
+        <p>Contact No: <input type="tel" name="contact"></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+
+</body>
+</html>
