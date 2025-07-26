@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Info Page</title>
+</head>
+<body>
+
+    <center><h3>Myself</h3></center>
+
+    <p>Name: John Doe</p>
+    <p>Age: 25</p>
+    <p>Email: johndoe@example.com</p>
+    <p>Contact No: 123-456-7890</p>
+
+</body>
+</html>
