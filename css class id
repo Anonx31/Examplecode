@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ID and Class Example</title>
+  <style>
+    /* Class selector */
+    .highlight {
+      background-color: yellow;
+      padding: 10px;
+    }
+
+    /* ID selector */
+    #special {
+      color: red;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="highlight">This is a heading with a class</h1>
+  <p class="highlight">This paragraph also uses the same class.</p>
+  
+  <p id="special">This paragraph uses an ID.</p>
+
+  <p class="highlight" id="special">This paragraph uses both a class and an ID.</p>
+
+</body>
+</html>
